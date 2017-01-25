@@ -1,0 +1,197 @@
+
+.tarjeta {
+    position: relative;
+    color: @gris-medio;
+    background-color: #fff;
+    padding: 0 0 15px 10px;
+    box-shadow: 0px 0px 8px 3px rgba(220,220,220,1);
+    z-index: -1;
+}
+
+.title-2 {
+    color: @principal-dos;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.reserva {
+    font-family: 'Comfortaa', cursive;
+    background-color: @principal-dos;
+    height: 70px;
+    .responsive(@tablets,{
+        padding-bottom: 10px;
+        height: 100%;
+    });
+    .responsive(@smartphones,{
+        padding-bottom: 10px;
+        height: 100%;
+    });
+}
+
+.text-res {
+    color: @color-white;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: left;
+    display: inline-flex;
+    .responsive(@notebook,{
+        font-size: 16px;
+    });
+    .responsive(@tablets, {
+        font-size: 18px;
+        max-width: 80%;
+    });
+    .responsive(@smartphones, {
+        font-size: 18px;
+        max-width: 70%;
+    });
+}
+
+.input-res {
+        color: #a9a9a9;
+    font-size: 14px;
+    border: none;
+    padding: 10px 10px;
+    width: 100%;
+    height: 40px;
+    outline: 0;
+    margin-left: 5px;
+    .responsive(@notebook,{
+        font-size: 12px;
+        padding: 5px 5px;
+    });
+    .responsive(@tablets, {
+        font-size: 10px;
+        padding: 5px 5px;
+    });
+    .responsive(@smartphones, {
+        font-size: 14px;
+        padding: 10px;
+        width: 93%;
+        margin-left: -2px;
+        margin-bottom: 10px;
+    });
+}
+
+.opt-cont {
+    outline: 0;
+    color: #A9A9A9;
+    background: #f5f5f5;
+    font-size: 17px;
+    border: none;
+    width: 100%;
+    padding: 10px 10px;
+    .responsive(@tablets,{
+       font-size: 16px; 
+        margin-bottom: 15px;
+    });
+}
+
+.btn-reservar {
+    background-color: #f29100;
+    border: 1px;
+    border-color: @principal-dos-claro;
+    border-style: solid;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 25px 9px 25px;
+    margin-left: -10px;
+    outline: 0;
+    text-decoration: none;
+    .responsive(@notebook,{
+        font-size: 14px;
+        padding: 11px 16px;
+        margin-left: -2px;
+    });
+    .responsive(@tablets,{
+        font-size: 12px;
+        padding: 12px 14px;
+        margin-top: 10px;
+    });
+}
+
+.box {
+    margin-top: 15px;
+    padding: 5px;
+    border: 1px;
+    border-color: #575756;
+    border-style: none solid none none;
+    .responsive(@smartphones,{
+        border: none;
+    });
+}
+
+.box-end {
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.text-lan-opt {
+    text-decoration: none;
+    color: @gris-oscuro;
+    font-size: 16px;
+    .responsive(@tablets,{
+       font-size: 14px; 
+    });
+    .responsive(@smartphones,{
+        font-size: 13px;
+    })
+}
+
+.text-lan-op {
+    text-decoration: none;
+    color: @gris-oscuro;
+    font-size: 20px;
+    .responsive(@tablets,{
+        font-size: 14px;
+    });
+    .responsive(@tablets,{
+       font-size: 13px; 
+    });
+}
+
+.input-date {
+    color: #A9A9A9;
+    font-size: 14px;
+    border: none;
+    padding: 10px 10px;
+    width: 100%;
+    margin-left: -10px;
+}
+
+.img-res {
+    margin: 0 10px;
+}
+
+
+
+.reserva-img {
+    box-sizing: border-box;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+    -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  max-width: 16.666%;
+    .responsive(@tablets,{
+        box-sizing: border-box;
+      -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+         -webkit-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+      max-width: 100%;
+    })
+}
+
+
+
+

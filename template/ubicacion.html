@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ubicacion</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="vendor/wow/animate.min.css">
+    <meta name="viewport" content="width=device-width, initial-sacle=1">
+</head>
+
+<body style="background-color: white;">
+    <div class="container-header header-no-index">
+        <div class="logo-header wow fadeInDown">
+            <img class="logo-h hvr-pulse" src="images/logo.png" alt="">
+        </div>
+        <header class="header-back">
+            <div class="menu-bar text-com">
+                <a class="br-menu"><span class="icon-menu"></span>
+                    MENU
+                </a>
+            </div>
+            <div class="row around-xs center-xs middle-xs title-nav text-com wow fadeIn">
+                <a href="#" class="logo wow fadeInLeftBig"><img src="images/logo-nav.png" alt=""></a>
+                <nav class="col-xs-12 center-xs">
+                    <ul class="center-xs">
+                        <li class="item-nav hvr-bob">
+                            <a class="text-nav" href="">
+                                <p>HABITACIONES</p>
+                            </a>
+                        </li>
+                        <li class="item-nav hvr-bob">
+                            <a class="text-nav" href="">
+                                <p>SERVICIOS</p>
+                            </a>
+                        </li>
+                        <li class="item-nav hvr-bob">
+                            <a class="text-nav" href="">
+                                <p>RESERVAS</p>
+                            </a>
+                        </li>
+                        <li class="item-nav-sel hvr-bob">
+                            <a class="text-nav-sel" href="">
+                                <p>UBICACIÓN</p>
+                            </a>
+                        </li>
+                        <li class="item-nav hvr-bob">
+                            <a class="text-nav" href="">
+                                <p>CONTACTO</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <div class="line"></div>
+    <div style="margin-top: 0px; height: 800px;" id="map" class="wow fadeIn"></div>
+    <footer id="footer">
+        <div class="footer ">
+            <div class="col-xs-12 col-sm-8">
+                <h5 class="text-footer text-com">
+            Dirección: Calle 3 N° 1A - 66 Sáchica - Boyacá - Colombia <br>
+            Teléfono: (57) 8 - 7342188 <br>
+            Celular: (57) 34353 0369 <br>
+            email: contactenos@hotelcalleprincipal.com
+        </h5>
+            </div>
+            <div class="col-xs-12 col-sm-4 logo-footer center-xs">
+                <img class="img-footer" src="images/logo.png" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+<!--jquery -->
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<!--google maps -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="vendor/wow/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<!--main -->
+<script type="text/javascript" src="js/main.js"></script>
+
+</html>

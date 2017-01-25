@@ -1,0 +1,46 @@
+@import url(flexboxgrid.less);
+@import url(config.less);
+@import url(normalize.less);
+@import url(font.less);
+@import url('icon.less');
+@import url('components/nav.less');
+@import url('components/services.less');
+@import url('components/content.less');
+@import url('components/footer.less');
+@import url('components/button.less');
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+select{
+	background-position: 280px center;
+    background-repeat: no-repeat;
+   	padding: 10px;
+   	font-size: 16px;
+   	border: 0;
+   -webkit-appearance: none;
+   -webkit-transition: all 0.4s;
+   -moz-transition: all 0.4s;
+   transition: all 0.4s;
+}
+select:hover{
+	background-color: #fff;
+}
+
+body{
+    background-color: @fondo;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#wrapper {
+    min-height: 90%;
+    position: relative;
+}
+
+#content {
+    padding-bottom: 80px; 
+}

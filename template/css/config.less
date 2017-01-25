@@ -1,0 +1,45 @@
+@principal-uno: #BD1622;
+@principal-dos: #F29100;
+@principal-dos-tras: rgba(242,145,0,0.7);
+@principal-dos-claro: rgb(248,177,51);
+@gris-claro: #868686;
+@gris-medio: #575756;
+@gris-oscuro: rgb(60,60,60);
+@color-white: #fff;
+@fondo: #F9F7F4;
+
+.container-2 {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.text-com{
+    font-family: 'Comfortaa', cursive;
+}
+.text-argon{
+    font-family: 'argon';
+}
+
+img {
+    max-width:100%;
+}
+
+/* RESPONSIVE */
+
+@deviceSmall: 480px;
+@smartphones: 768px;
+@tablets: 992px;
+@notebook: 1200px;
+.responsive(@maxWidth; @rules){
+    @media only screen and (max-width: @maxWidth){
+        @rules();
+    }
+}
+
+/* RETINA */
+.retina(@rules){
+    @media only screen and (-webkit-min-device-pixel-ratio: 2){
+        @rules();
+    }
+}
